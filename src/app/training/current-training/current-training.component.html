@@ -1,1 +1,14 @@
-<p>current-training works!</p>
+<section class="flex-center p-30">
+    <div >
+        <div class="flex-center">
+
+            <mat-spinner  mode="determinate" [value]="progress"></mat-spinner>
+        </div>
+        <h1 class="flex-center"> {{progress}}%</h1>
+        <p class="flex-center">Keep on going! You can do it!</p>
+        <div class="flex-center">
+
+            <button class="flex-center" mat-raised-button color="accent" (click)="onStop()">Stop</button>
+        </div>
+    </div>
+</section>

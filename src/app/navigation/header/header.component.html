@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="onToggleSidenav()" ngClass="show-mobile hide">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <div>
+        <a routerLink="/">NG FITNESS</a>
+    </div>
+    <div ngClass="flex-end nav-items hidden-mobile">
+        <a routerLink="/signup" *ngIf="!isAuth">SignUp</a>
+        <a routerLink="/login" *ngIf="!isAuth">Login</a>
+        <a routerLink="/training" *ngIf="isAuth">Training</a>
+        <a *ngIf="isAuth" (click)="logUserOut()">LogOut</a>
+    </div>
+</mat-toolbar>

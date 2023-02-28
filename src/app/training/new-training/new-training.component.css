@@ -1,0 +1,7 @@
+.new-training{
+    padding: 30px;
+}
+section .mat-card-title, .mat-card-content, button {
+    display: flex;
+    justify-content: center;
+}

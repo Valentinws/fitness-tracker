@@ -1,0 +1,8 @@
+.welcome{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section {
+    margin-right: 10px;
+}

@@ -1,11 +1,23 @@
 <section>
     <form #f="ngForm" (ngSubmit)="onSubmit(f)">
         <mat-form-field>
-            <input type="email" matInput placeholder="Your email" ngModel name="email">
+            <input type="email" matInput placeholder="Your email" ngModel name="email" required>
+            <mat-error>Should write email address!</mat-error>
+        </mat-form-field>
+        <mat-form-field hintLabel="Should have 3 characters.">
+            <input type="password" matInput placeholder="Your password" ngModel name="password" 
+            minlength="3" #p="ngModel" required>
+            <mat-hint align="end"> {{p?.value?.length}}/ 3</mat-hint>
+            <mat-error>Add extra {{3 - p.value?.length}} characters!</mat-error>
         </mat-form-field>
         <mat-form-field>
-            <input type="password" matInput placeholder="Your password" ngModel name="password">
+            <input matInput placeholder="Your birthdate" [matDatepicker]="picker"
+            [max]="maxDate" ngModel name="birthdate">
+            <mat-datepicker-toggle matPrefix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>
-        <button type="submit" mat-raised-button color="primary" >Submit</button>
+        <mat-checkbox required ngModel name="agree" color="primary">Agree to terms and conditions.</mat-checkbox>
+        <button *ngIf="!isLoading" type="submit" mat-raised-button color="primary" [disabled]="f.invalid">Submit</button>
+        <mat-spinner *ngIf="isLoading"></mat-spinner>
     </form>
 </section>
