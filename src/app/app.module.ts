@@ -23,6 +23,7 @@ import { MaterialModule } from './material.module';
 import { AuthModule } from './auth/auth.module';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { CommonModule } from '@angular/common';
+import { StoreModule } from '@ngrx/store';
 
 
 
@@ -45,7 +46,8 @@ import { CommonModule } from '@angular/common';
     BrowserAnimationsModule,
     MaterialModule,
     AuthModule,
-    CommonModule
+    CommonModule,
+    StoreModule.forRoot({}, {})
 
   ],
   providers: [ AuthService, TrainingService, UIService],
