@@ -1,0 +1,328 @@
+[debug] [2023-03-01T14:42:04.900Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:42:04.902Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase login
+[debug] [2023-03-01T14:42:04.902Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:42:04.902Z] Platform:      darwin
+[debug] [2023-03-01T14:42:04.902Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:42:04.903Z] Time:          Wed Mar 01 2023 15:42:04 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:42:04.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:42:04.906Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-03-01T14:42:05.473Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-03-01T14:42:05.474Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=457126559&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-01T14:42:46.397Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-03-01T14:42:46.399Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-03-01T14:42:46.783Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2023-03-01T14:42:46.784Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[debug] [2023-03-01T14:43:10.579Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:43:10.581Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase init
+[debug] [2023-03-01T14:43:10.581Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:43:10.582Z] Platform:      darwin
+[debug] [2023-03-01T14:43:10.582Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:43:10.584Z] Time:          Wed Mar 01 2023 15:43:10 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:43:10.584Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:43:10.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T14:43:10.638Z] > authorizing via signed-in user (valentin.rbarbu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vali/Desktop/angular2/fitness/fitness-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2023-03-01T14:43:31.443Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:43:31.444Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase init
+[debug] [2023-03-01T14:43:31.445Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:43:31.445Z] Platform:      darwin
+[debug] [2023-03-01T14:43:31.445Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:43:31.446Z] Time:          Wed Mar 01 2023 15:43:31 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:43:31.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:43:31.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T14:43:31.500Z] > authorizing via signed-in user (valentin.rbarbu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vali/Desktop/angular2/fitness/fitness-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-01T14:44:36.694Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-03-01T14:44:37.436Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-03-01T14:44:37.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fitness-b3259 (Fitness) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-01T14:45:29.309Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-01T14:45:29.611Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-01T14:45:29.611Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.1","browserURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.memory.js"}}
+[info] ✔  Wrote dist/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/vali/Desktop/angular2/fitness/fitness-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=780516712&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-01T14:48:25.425Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:48:25.426Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase init
+[debug] [2023-03-01T14:48:25.426Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:48:25.427Z] Platform:      darwin
+[debug] [2023-03-01T14:48:25.427Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:48:25.428Z] Time:          Wed Mar 01 2023 15:48:25 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:48:25.429Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:48:25.481Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T14:48:25.482Z] > authorizing via signed-in user (valentin.rbarbu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vali/Desktop/angular2/fitness/fitness-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-01T14:48:29.379Z] Using project from CLI flag: fitness-b3259
+[debug] [2023-03-01T14:48:29.382Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 [none]
+[debug] [2023-03-01T14:48:29.965Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 200
+[debug] [2023-03-01T14:48:29.965Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 {"projectId":"fitness-b3259","projectNumber":"662512988721","displayName":"Fitness","name":"projects/fitness-b3259","resources":{"hostingSite":"fitness-b3259"},"state":"ACTIVE","etag":"1_b685bfd6-9bf0-417a-be70-b00fffb346e2"}
+[info] i  Using project fitness-b3259 (Fitness) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-01T14:48:41.698Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-01T14:48:41.904Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-01T14:48:41.904Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.1","browserURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[debug] [2023-03-01T14:49:07.005Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:49:07.007Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase deploy
+[debug] [2023-03-01T14:49:07.007Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:49:07.008Z] Platform:      darwin
+[debug] [2023-03-01T14:49:07.008Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:49:07.009Z] Time:          Wed Mar 01 2023 15:49:07 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:49:07.009Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:49:07.063Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T14:49:07.064Z] > authorizing via signed-in user (valentin.rbarbu@gmail.com)
+[debug] [2023-03-01T14:49:07.065Z] [iam] checking project fitness-b3259 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-01T14:49:07.066Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fitness-b3259:testIamPermissions [none]
+[debug] [2023-03-01T14:49:07.066Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fitness-b3259:testIamPermissions x-goog-quota-user=projects/fitness-b3259
+[debug] [2023-03-01T14:49:07.066Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fitness-b3259:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-01T14:49:07.956Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fitness-b3259:testIamPermissions 200
+[debug] [2023-03-01T14:49:07.956Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fitness-b3259:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-01T14:49:07.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 [none]
+[debug] [2023-03-01T14:49:08.458Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 200
+[debug] [2023-03-01T14:49:08.459Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 {"projectId":"fitness-b3259","projectNumber":"662512988721","displayName":"Fitness","name":"projects/fitness-b3259","resources":{"hostingSite":"fitness-b3259"},"state":"ACTIVE","etag":"1_b685bfd6-9bf0-417a-be70-b00fffb346e2"}
+[info] 
+[info] === Deploying to 'fitness-b3259'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-03-01T14:49:08.462Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions [none]
+[debug] [2023-03-01T14:49:08.463Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-03-01T14:49:10.302Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions 200
+[debug] [2023-03-01T14:49:10.302Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions {"name":"projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[fitness-b3259]: beginning deploy... 
+[info] i  hosting[fitness-b3259]: found 9 files in dist 
+[debug] [2023-03-01T14:49:10.311Z] [hosting] uploading with 200 concurrency
+[debug] [2023-03-01T14:49:10.312Z] [hosting] hash cache [ZGlzdA] not populated
+[debug] [2023-03-01T14:49:10.393Z] [hosting] hash cache [ZGlzdA] stored for 9 files
+[debug] [2023-03-01T14:49:10.393Z] [hosting][hash queue][FINAL] {"max":78,"min":4,"avg":13.11111111111111,"active":0,"complete":9,"success":9,"errored":0,"retried":0,"total":9,"elapsed":80}
+[debug] [2023-03-01T14:49:10.393Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8:populateFiles [none]
+[debug] [2023-03-01T14:49:10.393Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8:populateFiles {"files":{"/index.html":"402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b","/fitness-tracker/422.898e3a4e156a7253.js":"7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7","/fitness-tracker/favicon.ico":"a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774","/fitness-tracker/runtime.3fcb60c9635d242a.js":"4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946","/fitness-tracker/3rdpartylicenses.txt":"0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b","/fitness-tracker/index.html":"4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6","/fitness-tracker/polyfills.0cb72895c73f2120.js":"ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab","/fitness-tracker/styles.8fa9dcc7c2cd13b5.css":"1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f","/fitness-tracker/main.ac463e9d71026df1.js":"fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676"}}
+[debug] [2023-03-01T14:49:12.073Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8:populateFiles 200
+[debug] [2023-03-01T14:49:12.073Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8:populateFiles {"uploadRequiredHashes":["ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab","402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b","a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774","0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b","4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6","fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676","1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f","7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7","4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files"}
+[debug] [2023-03-01T14:49:12.076Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab [none]
+[debug] [2023-03-01T14:49:12.076Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab [stream]
+[debug] [2023-03-01T14:49:12.077Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b [none]
+[debug] [2023-03-01T14:49:12.077Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b [stream]
+[debug] [2023-03-01T14:49:12.077Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774 [none]
+[debug] [2023-03-01T14:49:12.078Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774 [stream]
+[debug] [2023-03-01T14:49:12.078Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b [none]
+[debug] [2023-03-01T14:49:12.078Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b [stream]
+[debug] [2023-03-01T14:49:12.078Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6 [none]
+[debug] [2023-03-01T14:49:12.078Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6 [stream]
+[debug] [2023-03-01T14:49:12.079Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676 [none]
+[debug] [2023-03-01T14:49:12.079Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676 [stream]
+[debug] [2023-03-01T14:49:12.080Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f [none]
+[debug] [2023-03-01T14:49:12.080Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f [stream]
+[debug] [2023-03-01T14:49:12.081Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7 [none]
+[debug] [2023-03-01T14:49:12.081Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7 [stream]
+[debug] [2023-03-01T14:49:12.082Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946 [none]
+[debug] [2023-03-01T14:49:12.082Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946 [stream]
+[debug] [2023-03-01T14:49:12.082Z] [hosting][populate queue][FINAL] {"max":1684,"min":1684,"avg":1684,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1690}
+[debug] [2023-03-01T14:49:12.083Z] [hosting] uploads queued: 9
+[debug] [2023-03-01T14:49:13.498Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b 200
+[debug] [2023-03-01T14:49:13.498Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/402d1d5b7329f5f91f1edfbab26ab9cfd5fa49fab78e5c38330267b0244c7b8b [stream]
+[debug] [2023-03-01T14:49:13.858Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab 200
+[debug] [2023-03-01T14:49:13.859Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/ccf8717cc1643272c5cc5a01caed7ae6b8b38b27d38d84c3b187096cdc6d8eab [stream]
+[debug] [2023-03-01T14:49:14.023Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b 200
+[debug] [2023-03-01T14:49:14.024Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/0bb29a24af4f6cd44e7a5cb978648eb551c3c794d4f687e43f27b1222003082b [stream]
+[debug] [2023-03-01T14:49:14.117Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774 200
+[debug] [2023-03-01T14:49:14.117Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/a2aee5309d0b59b9b66384ccc3969a07fab1b320d0bf76f1b25047a051d7f774 [stream]
+[debug] [2023-03-01T14:49:14.247Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7 200
+[debug] [2023-03-01T14:49:14.248Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/7ed1e23fa46ae7959e353b2133f06eb1e369e86170a181df97241b483e75b5b7 [stream]
+[debug] [2023-03-01T14:49:14.668Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f 200
+[debug] [2023-03-01T14:49:14.668Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/1816696e003732d5f1386a261fb141e368f63aafbe281653d706c943ae2f969f [stream]
+[debug] [2023-03-01T14:49:14.670Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946 200
+[debug] [2023-03-01T14:49:14.670Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4b26761da58dcad0c944f17715deb0e95284362041b4cc9749f96ea07a7a5946 [stream]
+[debug] [2023-03-01T14:49:14.816Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6 200
+[debug] [2023-03-01T14:49:14.817Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/4cfd1f94d6b1508df0a4be7bc44b226ae3c5d30c0e902b674ff6bb5cd4a2c5b6 [stream]
+[debug] [2023-03-01T14:49:27.517Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676 200
+[debug] [2023-03-01T14:49:27.518Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fitness-b3259/versions/9b1825e0f23e0db8/files/fccbd4071b698f961be65dd7f33eaf501712320c43a5e8bc3b7e6580d3bc4676 [stream]
+[debug] [2023-03-01T14:49:27.518Z] [hosting][upload queue][FINAL] {"max":15443,"min":1424,"avg":3638.5555555555557,"active":0,"complete":9,"success":9,"errored":0,"retried":0,"total":9,"elapsed":15444}
+[info] ✔  hosting[fitness-b3259]: file upload complete 
+[debug] [2023-03-01T14:49:27.520Z] [hosting] deploy completed after 17216ms
+[debug] [2023-03-01T14:49:27.521Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "fitness-b3259"
+    },
+    "version": "projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8"
+  }
+]
+[info] i  hosting[fitness-b3259]: finalizing version... 
+[debug] [2023-03-01T14:49:27.525Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions/9b1825e0f23e0db8 updateMask=status%2Cconfig
+[debug] [2023-03-01T14:49:27.525Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions/9b1825e0f23e0db8 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-03-01T14:49:28.654Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions/9b1825e0f23e0db8 200
+[debug] [2023-03-01T14:49:28.655Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/versions/9b1825e0f23e0db8 {"name":"projects/662512988721/sites/fitness-b3259/versions/9b1825e0f23e0db8","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-03-01T14:49:09.207116Z","createUser":{"email":"valentin.rbarbu@gmail.com"},"finalizeTime":"2023-03-01T14:49:28.608058Z","finalizeUser":{"email":"valentin.rbarbu@gmail.com"}}
+[debug] [2023-03-01T14:49:28.655Z] [hosting] finalized version for fitness-b3259:[object Object]
+[info] ✔  hosting[fitness-b3259]: version finalized 
+[info] i  hosting[fitness-b3259]: releasing new version... 
+[debug] [2023-03-01T14:49:28.657Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/channels/live/releases versionName=projects%2F662512988721%2Fsites%2Ffitness-b3259%2Fversions%2F9b1825e0f23e0db8
+[debug] [2023-03-01T14:49:28.657Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/channels/live/releases {}
+[debug] [2023-03-01T14:49:29.961Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fitness-b3259/channels/live/releases 200
+[debug] [2023-03-01T14:56:45.061Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T14:56:45.063Z] Command:       /opt/homebrew/Cellar/node/18.11.0/bin/node /Users/vali/.npm-global/bin/firebase init
+[debug] [2023-03-01T14:56:45.063Z] CLI Version:   11.24.0
+[debug] [2023-03-01T14:56:45.063Z] Platform:      darwin
+[debug] [2023-03-01T14:56:45.063Z] Node Version:  v18.11.0
+[debug] [2023-03-01T14:56:45.067Z] Time:          Wed Mar 01 2023 15:56:45 GMT+0100 (Central European Standard Time)
+[debug] [2023-03-01T14:56:45.067Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T14:56:45.126Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T14:56:45.127Z] > authorizing via signed-in user (valentin.rbarbu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vali/Desktop/angular2/fitness/fitness-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-01T14:56:53.939Z] Using project from CLI flag: fitness-b3259
+[debug] [2023-03-01T14:56:53.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 [none]
+[debug] [2023-03-01T14:56:54.492Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 200
+[debug] [2023-03-01T14:56:54.492Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fitness-b3259 {"projectId":"fitness-b3259","projectNumber":"662512988721","displayName":"Fitness","name":"projects/fitness-b3259","resources":{"hostingSite":"fitness-b3259"},"state":"ACTIVE","etag":"1_4964dba5-e337-4e6a-9df1-bf185d3ca8cf"}
+[info] i  Using project fitness-b3259 (Fitness) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-01T14:57:08.547Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-01T14:57:08.890Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-01T14:57:08.891Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.1","browserURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.1/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/vali/Desktop/angular2/fitness/fitness-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=474963322&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-01T14:57:32.845Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-01T14:57:32.846Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-01T14:57:33.461Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-01T14:57:33.462Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-01T14:57:33.471Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-01T14:57:33.877Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-01T14:57:33.877Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Valentinws","id":97539256,"node_id":"U_kgDOBdBUuA","avatar_url":"https://avatars.githubusercontent.com/u/97539256?v=4","gravatar_id":"","url":"https://api.github.com/users/Valentinws","html_url":"https://github.com/Valentinws","followers_url":"https://api.github.com/users/Valentinws/followers","following_url":"https://api.github.com/users/Valentinws/following{/other_user}","gists_url":"https://api.github.com/users/Valentinws/gists{/gist_id}","starred_url":"https://api.github.com/users/Valentinws/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Valentinws/subscriptions","organizations_url":"https://api.github.com/users/Valentinws/orgs","repos_url":"https://api.github.com/users/Valentinws/repos","events_url":"https://api.github.com/users/Valentinws/events{/privacy}","received_events_url":"https://api.github.com/users/Valentinws/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":1,"followers":1,"following":5,"created_at":"2022-01-11T15:53:09Z","updated_at":"2023-03-01T14:53:03Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":69494,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Valentinws 
+[info] 
