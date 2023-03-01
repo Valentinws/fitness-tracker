@@ -3,14 +3,14 @@
     <mat-card class="card">
         <mat-card-title>Time to start a workout!</mat-card-title>
         <mat-card-content>
-            <mat-form-field appearance="fill" *ngIf="!isLoading">
+            <mat-form-field appearance="fill" *ngIf="!(isLoading$ | async)">
                 <mat-label>Select an exercise</mat-label>
                 <mat-select  ngModel  required name="exercise" >
                     <mat-option *ngFor="let ex of exercises" value="{{ex.id}}" >
                         {{ ex.name }}
                     </mat-option>                    
                 </mat-select>
-                <mat-spinner *ngIf="isLoading"></mat-spinner>
+                <mat-spinner *ngIf="isLoading$ |async"></mat-spinner>
             </mat-form-field>
         </mat-card-content>
         <div class="flex-center">

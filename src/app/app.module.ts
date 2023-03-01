@@ -24,6 +24,7 @@ import { AuthModule } from './auth/auth.module';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
+import { reducers } from './app.reducer';
 
 
 
@@ -47,7 +48,7 @@ import { StoreModule } from '@ngrx/store';
     MaterialModule,
     AuthModule,
     CommonModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot(reducers)
 
   ],
   providers: [ AuthService, TrainingService, UIService],
